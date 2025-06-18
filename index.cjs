@@ -19,9 +19,9 @@ app.use(cors());
 
 const port = 3000;
 
-const TOGETHER_API_KEY = "c633bbae018ed9f7d090c34f028137619dda0e088dcb425732b14346cac569a8";
-const TOGETHER_MODEL = "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free";
-const RHUBARB_PATH = "C:\\Users\\avnis\\OneDrive\\Desktop\\Doctor\\Rhubarb-Lip-Sync-1.14.0-Windows\\rhubarb.exe";
+const TOGETHER_API_KEY = "%yourAPikey";
+const TOGETHER_MODEL = "%yourAImodel";
+const RHUBARB_PATH = "%rhubarb.exeLocation";
 
 // Convert audio file to base64
 const audioFileToBase64 = async (file) => {
